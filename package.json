@@ -1,20 +1,23 @@
 {
-  "name": "zeit-cli-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "dev": "next",
     "now-build": "next build"
   },
-  "keywords": [],
-  "author": "haven ramos <havster09@gmail.com> (http://havenramos.com)",
-  "license": "ISC",
   "dependencies": {
-    "next": "^8.1.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@zeit/next-typescript": "^1.1.1",
+    "bootstrap": "^4.3.1",
+    "next": "^8.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@types/next": "^8.0.5",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "node-sass": "^4.12.0",
+    "typescript": "^3.4.5"
   }
 }
